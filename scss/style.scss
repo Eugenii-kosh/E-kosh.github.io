@@ -1,0 +1,518 @@
+body {
+    width: auto;
+    height: auto;
+}
+
+header {
+    width: 100%;
+    background-color: #ebebeb;
+    margin-top: -10px;
+}
+
+header .container {
+    max-width: 1200px;
+    width: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+header .container .navigation .information ul {
+    display: flex;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 16px;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+header .container .navigation .information ul  li a {
+    margin: 7px;
+    height: auto;
+    width: auto;
+    color: rgb(85, 85, 85);
+}
+
+header .container .navigation .information ul  li a:hover {
+    color: rgb(138, 114, 114);
+}
+
+header .container .navigation .services ul {
+    display: flex;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 18px;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+header .container .navigation .services ul  li a {
+    margin: 7px;
+    height: auto;
+    width: auto;
+    color: rgb(47, 47, 47);
+}
+
+header .container .navigation .services ul  li a:hover {
+    color: rgb(107, 67, 67);
+}
+
+body a {
+    text-decoration: none;
+}
+
+// font-family: 'Pacifico', cursive;
+// font-family: 'IBM Plex Serif', serif;
+
+header .container .logo a {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 25px;
+    line-height: 10px;
+    color: rgb(98, 23, 23);
+}
+
+header .container .logo a img {
+    margin-top: 17px;
+}
+
+header .container .logo a p {
+    margin-top: 10px;
+    margin-left: 7px;
+}
+
+header .container .registration {
+    font-family: monospace;
+    display: flex;
+    display: grid;
+    justify-content: space-around;
+    margin-left: 25px;
+}
+
+header .container .registration a {
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 35px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 10px;
+    width: auto;
+    background-color: rgb(243, 87, 87);
+    text-align: center;
+    border-radius: 13px;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+}
+
+header .container .registration a:hover {
+    background-color: rgb(93, 93, 93);
+}
+
+
+// main 
+
+body main .slider {
+    width: 100%;
+    height: 100;
+}
+
+body main .slider img {
+    width: 100%;
+    height: 300px;
+}
+
+#slider-links {
+    color: azure;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 25px;
+}
+
+#slider-links img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#slider-links img {
+    margin-bottom: 25px;
+    -webkit-transition: -webkit-transform 0.5s;
+    transform: -webkit-transform 0.5s;
+    -o-transition: transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+// services
+
+main .services {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+}
+
+main .services .ser-flex {
+    display: flex;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    justify-content: space-between;
+}
+
+main .services .ser-title {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 300;
+}
+
+main .services .ser-flex .card {
+    -webkit-transition: -webkit-transform 0.5s;
+    transform: -webkit-transform 0.5s;
+    -o-transition: transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+main .services .ser-flex .card:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: rgb(227, 230, 230);
+}
+
+main .services .ser-flex .card .my-btn {
+    background-color: rgb(216, 42, 42);
+    padding: 5px 7px 7px 7px;
+    border-radius: 15px;
+    text-align: center;
+    color: cornsilk;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+main .services .ser-flex .card .my-btn:hover {
+    background-color: rgb(126, 126, 126);
+}
+
+
+// course
+
+
+main .course {
+    width: auto;
+    height: 420px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 420px;
+}
+
+main .course .container-course {
+    width: 1200px;
+    height: auto;
+    margin: 0px auto 0px auto;
+}
+
+main .course .container-course #myList {
+    flex-direction: row;
+}
+
+main .course .container-course #myList a {
+    width: auto;
+    font-size: 18px;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    color: rgb(78, 78, 78);
+    border-color: white;
+}
+
+main .course .container-course #myList a:hover {
+    color: rgb(44, 44, 44);
+    text-shadow: 0 10px 10px rgb(153, 153, 153);
+}
+
+.con {
+    width: 280px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px 0px 0px;
+}
+
+.buy-sale {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(153, 153, 153);
+}
+
+.money-digits .digits {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 35px;
+    font-family: monospace;
+    color: rgb(53, 53, 53);
+    font-weight: bolder;
+}
+
+.money h2 {
+    font-size: 25px;
+    color: rgb(126, 126, 126);
+    font-family: monospace;
+}
+
+.container-course-date {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.container-course-date #current_date_time_block {
+    font-size: 35px;
+    margin: 1px 0px 0px 35px;
+    color: rgb(98, 98, 98);
+}
+
+.container-course-date h1 {
+    color: rgb(65, 65, 65);
+}
+
+// services 2 
+
+
+.services-2 {
+    width: 100%;
+    height: 800px;
+    margin-top: 50px;
+}
+
+.services-2 .container-ser-2 {
+    width: 1200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.services-2 .container-ser-2 .col .col-ser-2 {
+    height: 250px;
+    width: 170;
+    margin: 7px 20px 20px 7px;
+    position: relative;
+    overflow: hidden;
+}
+
+.services-2 .container-ser-2 .col .col-ser-2 .for-back {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 0;
+    background-position: 50%;
+    background-size: cover;
+    -webkit-transition: -webkit-transform 0.5s;
+    transform: -webkit-transform 0.5s;
+    -o-transition: transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    
+}
+
+.for-back:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.services-2 .container-ser-2 .col .col-ser-2 .for-text {
+    position: relative;
+    z-index: 1;
+    width: 50%;
+}
+
+.services-2 .container-ser-2 .col .col-ser-2 .for-text p {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 23px;
+    margin: 15px 0px 0px 15px;
+}
+
+
+// bank-app
+
+
+.bank-app {
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+}
+
+.bank-app .container-bank-app {
+    width: 1200px;
+    height: 500px;
+    margin: 15px auto 0px auto;
+}
+
+.bank-app .container-bank-app .bank-app-content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin: 80px 0px 0px 300px;
+    background-color: rgb(196, 222, 235);
+    border-radius: 15px;
+}
+
+.bank-app .container-bank-app .bank-app-content div {
+    margin: 30px 20px 0px 120px;
+    width: 325px;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 18px;
+    color: rgb(45, 46, 70);
+}
+
+.bank-app .container-bank-app .bank-app-title {
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: bold;
+    margin-left: 150px;
+    color: rgb(53, 53, 53);
+}
+
+.bank-app .container-bank-app .bank-app-icons {
+    width: 400px;
+    height: auto;
+    margin: 50px auto 0px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+// social
+
+
+.social {
+    width: 100%;
+    height: 400px;
+    margin-top: 85px;
+    background-color: rgba(216, 111, 111, 0.849);
+}
+
+.social .social-container {
+    width: 1200px;
+    height: 400px;
+    margin: 0px auto 0px auto;
+    display: flex;
+}
+
+.social .social-container .soc-content {
+    width: 400px;
+    height: auto;
+    font-size: 20px;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 400;
+    color: rgb(28, 28, 54);
+    h3 {
+        margin: 15px 0px 0px 5px;
+    }
+    p {
+        margin: 15px 0px 0px 5px;
+    }
+}
+
+.social .social-container .soc-links {
+    width: 800px;
+    height: 400px;
+    background-image: url("/photos/social/human.png");
+    background-size: 500px 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    #vk {
+        margin: 30px 0px 0px 200px;
+        position: absolute;
+    }
+
+    #fb {
+        margin: 30px 0px 0px 550px;
+        position: absolute;
+    }
+
+    #tw {
+        margin: 112px 0px 0px 165px;
+        position: absolute;
+    }
+
+    #tel {
+        margin: 112px 0px 0px 590px;
+        position: absolute;
+    }
+
+    #inst {
+        margin: 240px 0px 0px 170px;
+        position: absolute;
+    }
+
+    #dno {
+        margin: 240px 0px 0px 580px;
+        position: absolute;
+    }
+
+    img {
+        -webkit-transition: -webkit-transform 0.5s;
+        transform: -webkit-transform 0.5s;
+        -o-transition: transform 0.5s;
+        transition: transform 0.5s;
+        transition: transform 0.5s, -webkit-transform 0.5s;
+    }
+
+    img:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        border-radius: 50%;
+        box-shadow: 0 0 35px rgb(0, 132, 255);
+    }
+}
+
+// footer
+
+
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(16, 25, 44);
+    position: absolute;
+
+    .footer-container {
+        width: 1000px;
+        height: 300px;
+        margin: 50px auto auto auto;
+        display: flex;
+        
+        .about {
+            width: 50%;
+            height: 300px;
+            font-family: 'IBM Plex Serif', serif;
+            font-weight: 300;
+            color: white;
+            p {
+                width: 350px;
+                font-size: 16px;
+                margin-top: 23px;
+            }
+        }
+
+        .contacts {
+            width: 50%;
+            height: 300px;
+            font-family: 'IBM Plex Serif', serif;
+            color: white;
+        }
+    }
+}
